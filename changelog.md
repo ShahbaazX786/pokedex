@@ -1,4 +1,6 @@
 
+0.0.5 - Added Footer basic.
+
 0.0.4 - Added Navbar basic.
 
 0.0.3 - Added tailwind and configured without overriding primeng styles.

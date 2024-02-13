@@ -6,7 +6,9 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 
-
-.p-ripple.purple .p-ink {
-  background: rgba(256, 39, 176, .3);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
 }

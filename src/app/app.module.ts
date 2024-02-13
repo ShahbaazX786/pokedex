@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 
 import { ButtonModule } from 'primeng/button';
 import { NavbarComponent } from './app-layout/navbar/navbar.component';
+import { FooterComponent } from './app-layout/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
