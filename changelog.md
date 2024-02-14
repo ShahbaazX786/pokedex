@@ -1,4 +1,6 @@
 
+0.0.6 - Code Refactor #1.
+
 0.0.5 - Added Footer basic.
 
 0.0.4 - Added Navbar basic.

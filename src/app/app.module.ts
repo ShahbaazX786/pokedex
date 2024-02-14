@@ -2,21 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ButtonModule } from 'primeng/button';
-import { NavbarComponent } from './app-layout/navbar/navbar.component';
-import { FooterComponent } from './app-layout/footer/footer.component';
+import { AppLayoutModule } from './app-layout/app-layout.module';
+import { SearchModule } from './search/search.module';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule,
     BrowserAnimationsModule,
+    AppLayoutModule,
+    SearchModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
