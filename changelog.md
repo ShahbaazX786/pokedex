@@ -1,4 +1,6 @@
 
+0.0.7 - Added and configured prime - icons.
+
 0.0.6 - Code Refactor #1.
 
 0.0.5 - Added Footer basic.
