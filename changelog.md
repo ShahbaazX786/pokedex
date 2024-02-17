@@ -1,4 +1,10 @@
 
+0.1.5 - Sync changelog.md.
+
+0.1.4 - Added paginator component UI.
+
+0.1.3 - Refactor minor.
+
 0.1.2 - Integrated API with UI.
 
 0.1.1 - Added new components and modules for home components and routing navigation.
