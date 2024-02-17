@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 
 import { AppLayoutModule } from './app-layout/app-layout.module';
 import { LandingModule } from './landing/landing.module';
+import { SharedModule } from 'primeng/api';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { LandingModule } from './landing/landing.module';
     AppLayoutModule,
     LandingModule,
     HttpClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent],
