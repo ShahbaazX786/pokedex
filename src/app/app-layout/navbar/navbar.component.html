@@ -22,8 +22,10 @@
     <ng-template pTemplate="content">
       <div class="flex flex-col justify-start gap-5">
         <span *ngFor="let item of items" [routerLink]="item.routerLink"
-          class="text-black text-2xl">{{item.label}}</span>
-        <p-button label="Create Account" [outlined]="true" icon="pi pi-user-plus" iconPos="right" size="large"></p-button>
+          class="text-black text-xl">
+          <i [class]="item.icon" style="font-size: 1.2rem; margin-right:5px"></i>{{item.label}}
+        </span>
+        <p-button label="Create Account" [outlined]="true" icon="pi pi-user-plus" iconPos="right" size="small"></p-button>
       </div>
     </ng-template>
     <ng-template pTemplate="footer">All Rights Reserved</ng-template>

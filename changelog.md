@@ -1,4 +1,6 @@
 
+0.1.0 - Bug fixes.
+
 0.0.9 - Changed burger button position and added sidebar options.
 
 0.0.8 - Added sidebar module to enable sidebar in smaller devices.
