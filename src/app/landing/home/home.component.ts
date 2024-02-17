@@ -11,13 +11,13 @@ export class HomeComponent implements OnInit {
   constructor(private _ds: DataService) {}
 
   ngOnInit(): void {
-    this._ds.getAllPokemon().subscribe((global: any) => {
-      global.results.forEach((result: any) => {
-        this._ds
-          .getMorePokemon(result.name)
-          .subscribe((res: any) => this.AllPokemons.push(res));
+      this._ds.getAllPokemon().subscribe((global: any) => {
+        global.results.forEach((result: any) => {
+          this._ds
+            .getMorePokemon(result.name)
+            .subscribe((res: any) => this.AllPokemons.push(res));
+        });
       });
-    });
-    console.warn(this.AllPokemons);
-  }
+      console.warn(this.AllPokemons);
+    }
 }
