@@ -1,12 +1,10 @@
-<div class="card flex justify-content-center">
-  <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '300px' }">
+<div class="card flex justify-content-center hover:scale-105 transition-transform ease-linear" [id]="data.id">
+  <p-card [header]="data.name" [style]="{ width: '300px' }" class="capitalize">
     <ng-template pTemplate="header">
-      <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+      <img alt="Card" [src]="data.sprites.front_default" class="bg-black rounded-t-md h-fit" />
     </ng-template>
     <ng-template pTemplate="footer">
-      <p-button label="Save" icon="pi pi-check"></p-button>
-      <p-button label="Cancel" icon="pi pi-times" styleClass="p-button-secondary"
-        [style]="{ 'margin-left': '.5em' }"></p-button>
+
     </ng-template>
   </p-card>
 </div>

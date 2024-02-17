@@ -1,4 +1,6 @@
 
+0.1.2 - Integrated API with UI.
+
 0.1.1 - Added new components and modules for home components and routing navigation.
 
 0.1.0 - Bug fixes.
