@@ -13,13 +13,21 @@
 <!-- side bar in mobile devices -->
 <div class="flex lg:hidden xl:hidden justify-start items-center bg-zinc-50 border rounded-md py-1 px-2">
   <p-sidebar [(visible)]="sidebarVisible">
-    <h3>Sidebar</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <ng-template pTemplate="header">
+      <div class="flex flex-row justify-center items-baseline">
+        <img src="../../../assets/logo.png" class="h-10 mr-auto" alt="Pokedex Logo" (click)="toggleSidebar()" />
+        <p class="inline-block p-2">V1</p>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="content">
+      <div class="flex flex-col justify-start gap-5">
+        <span *ngFor="let item of items" [routerLink]="item.routerLink"
+          class="text-black text-2xl">{{item.label}}</span>
+        <p-button label="Create Account" [outlined]="true" icon="pi pi-user-plus" iconPos="right" size="large"></p-button>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="footer">All Rights Reserved</ng-template>
   </p-sidebar>
-  <p-button (click)="toggleSidebar()" icon="pi pi-arrow-right" class="mr-auto"></p-button>
-  <img src="../../../assets/logo.png" class="h-10" alt="Pokedex Logo" />
+  <img src="../../../assets/logo.png" class="h-10 mr-auto" alt="Pokedex Logo" />
+  <p-button (click)="toggleSidebar()" icon="pi pi-bars" severity="primary" size="small"></p-button>
 </div>

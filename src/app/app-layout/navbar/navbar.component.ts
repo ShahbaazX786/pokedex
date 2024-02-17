@@ -21,14 +21,17 @@ export class NavbarComponent implements OnInit {
       {
         label: 'About',
         icon: 'pi pi-fw pi-pencil',
+        routerLink: '/home',
       },
       {
         label: 'Contact',
         icon: 'pi pi-fw pi-user',
+        routerLink: '/home',
       },
       {
         label: 'Info',
         icon: 'pi pi-fw pi-calendar',
+        routerLink: '/home',
       },
     ];
   }
