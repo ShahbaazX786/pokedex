@@ -1,4 +1,6 @@
 
+0.0.8 - Added sidebar module to enable sidebar in smaller devices.
+
 0.0.7 - Added and configured prime - icons.
 
 0.0.6 - Code Refactor #1.
