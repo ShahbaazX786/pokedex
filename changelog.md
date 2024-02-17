@@ -1,4 +1,6 @@
 
+0.1.1 - Added new components and modules for home components and routing navigation.
+
 0.1.0 - Bug fixes.
 
 0.0.9 - Changed burger button position and added sidebar options.

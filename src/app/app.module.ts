@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { AppLayoutModule } from './app-layout/app-layout.module';
-import { SearchModule } from './search/search.module';
+import { LandingModule } from './landing/landing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,7 +15,7 @@ import { SearchModule } from './search/search.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     AppLayoutModule,
-    SearchModule,
+    LandingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
