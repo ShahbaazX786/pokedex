@@ -5,6 +5,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { SearchModule } from '../search/search.module';
 import { FeaturesModule } from '../features/features.module';
 import { SharedModule } from '../features/shared.module';
+import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
 
 
 
@@ -12,6 +13,7 @@ import { SharedModule } from '../features/shared.module';
   declarations: [
     HomeComponent,
     PokemonCardComponent,
+    PokemonDetailComponent,
   ],
   imports: [
     CommonModule,

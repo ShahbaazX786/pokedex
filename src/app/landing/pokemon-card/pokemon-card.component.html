@@ -1,4 +1,4 @@
-<div class="card flex justify-content-center hover:scale-105 transition-transform ease-linear hover:shadow-lg" [id]="data.id">
+<div class="card flex justify-content-center hover:scale-105 transition-transform ease-linear hover:shadow-lg hover:cursor-pointer" [id]="data.id" (click)="FetchPokemon(data.name)">
   <p-card [header]="data.name" [style]="{ width: '300px' }" class="capitalize">
     <ng-template pTemplate="header">
       <img alt="Card" [src]="data.sprites.front_default" class="bg-black rounded-t-md h-fit" />

@@ -1,4 +1,6 @@
 
+0.1.7 - Minor changes 2.
+
 0.1.6 - Minor changes.
 
 0.1.5 - Sync changelog.md.

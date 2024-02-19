@@ -16,4 +16,8 @@ export class DataService {
   getMorePokemon(name: string) {
     return this._http.get(`${this.url}/${name}`);
   }
+
+  getSpecificPokemon(name:string){
+    return this._http.get(`${this.url}/${name}`);
+  }
 }
