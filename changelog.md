@@ -1,4 +1,6 @@
 
+0.1.6 - Minor changes.
+
 0.1.5 - Sync changelog.md.
 
 0.1.4 - Added paginator component UI.

@@ -1,10 +1,14 @@
-<div class="card flex justify-content-center hover:scale-105 transition-transform ease-linear" [id]="data.id">
+<div class="card flex justify-content-center hover:scale-105 transition-transform ease-linear hover:shadow-lg" [id]="data.id">
   <p-card [header]="data.name" [style]="{ width: '300px' }" class="capitalize">
     <ng-template pTemplate="header">
       <img alt="Card" [src]="data.sprites.front_default" class="bg-black rounded-t-md h-fit" />
     </ng-template>
     <ng-template pTemplate="footer">
-
+      {{data.base_experience}}
+      <div *ngFor="let types of data.types">
+        {{types.type.name}}
+        <img [src]="types.type.url" alt="">
+      </div>
     </ng-template>
   </p-card>
 </div>
